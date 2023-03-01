@@ -14,5 +14,5 @@ while (true) {
   // Create a new <li> element and append it to the <ul> list
   const li = document.createElement("li");
   li.textContent = newItem;
-  listaSpesa.appendChild(li);
+  listaSpesa.append(li);
 };
