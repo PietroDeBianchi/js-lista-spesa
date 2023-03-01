@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: 'Martian Mono', monospace;
 }
+
+main {
+    width: 70vw;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+.container {
+    min-height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    text-align: start;
+    padding: 8px 0;
+}
