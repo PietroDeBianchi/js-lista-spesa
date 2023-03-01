@@ -1,4 +1,4 @@
-// Get the necessary HTML element
+// Get the necessary HTML element in this case the <ul id="listaSpesa">
 const listaSpesa = document.getElementById("listaSpesa");
 
 // Use a while loop to continuously prompt for new items
@@ -8,11 +8,11 @@ while (true) {
 
   // Exit the loop if the user clicks "Cancel" or enters an empty string
   if (newItem.trim() === "") {
-    break;
+    break; //break is for “jumps out” of a loop
   }
-  
+
   // Create a new <li> element and append it to the <ul> list
   const li = document.createElement("li");
   li.textContent = newItem;
-  listaSpesa.append(li);
+  listaSpesa.append(li);  // in this case i can also use appendChild but is only for Node objects.
 };
